@@ -1,4 +1,6 @@
-# 🏦 Banking Terminal App is a simple terminal-based banking application designed to demonstrate basic real-world banking features. 
+# 🏦 Banking Terminal App
+
+# Banking Terminal App is a simple terminal-based banking application designed to demonstrate basic real-world banking features. 
 It allows users to perform operations such as deposits, withdrawals, balance checking, and account management through a command-line interface.
 
 # ✨ Features
