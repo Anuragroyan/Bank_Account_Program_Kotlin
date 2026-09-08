@@ -1,18 +1,150 @@
-# 🏦 Banking Terminal App
+🏦 Banking Terminal App
 
-# Banking Terminal App is a simple terminal-based banking application designed to demonstrate basic real-world banking features. 
-It allows users to perform operations such as deposits, withdrawals, balance checking, and account management through a command-line interface.
+Banking Terminal App is a Kotlin-based terminal application designed to demonstrate fundamental real-world banking operations through a command-line interface. It allows users to manage accounts and perform essential transactions such as deposits, withdrawals, balance checking, and account management.
 
-# ✨ Features
+🎯 Why This Project?
 
-* 🏦 Bank Account Management – Manage basic banking account operations.
-* 💰 Deposit Money – Add money to a bank account.
-* 💸 Withdraw Money – Withdraw money from an account.
-* 💳 Balance Checking – Check the current account balance.
-* 👤 Account Details – View basic account information.
-* 🔄 Transaction Handling – Perform basic banking transactions.
-* 🖥️ Terminal UI – Interact with the application through a command-line interface.
-* ⚡ Simple Workflow – Demonstrates how common banking operations work in a real-world scenario.
+Banking Terminal App was built to practice Kotlin fundamentals, object-oriented programming, user input handling, conditional logic, and transaction-based application flow through a simple command-line banking system.
+
+The project focuses on implementing real-world banking concepts while keeping the application lightweight and easy to understand.
+
+🚀 Features
+
+* 👤 Account creation and management
+* 💰 Deposit money
+* 💸 Withdraw money
+* 💳 Check account balance
+* 🔄 Perform banking transactions
+* 🧾 Display transaction information
+* 🔐 Basic account validation
+* ⚠️ Handle invalid inputs and transactions
+* 🖥️ Command-line interface
+* 🧮 Balance calculation and management
+
+🔄 Application Workflow
+
+Start Application → Create / Access Account → Select Banking Operation → Deposit / Withdraw / Check Balance → Validate Transaction → Update Account → Display Result → Continue / Exit
+
+🧩 Main Modules
+
+👤 Account Management
+
+Users can create and manage their basic banking account information.
+
+Create Account → Enter Account Details → Validate Information → Access Account
+
+💰 Deposit
+
+Users can add money to their account.
+
+Select Deposit → Enter Amount → Validate Amount → Add To Balance → Display Updated Balance
+
+💸 Withdrawal
+
+Users can withdraw money from their available balance.
+
+Select Withdrawal → Enter Amount → Check Balance → Validate Transaction → Deduct Amount → Display Updated Balance
+
+💳 Balance Checking
+
+Users can view their current account balance.
+
+Select Balance → Retrieve Account Data → Display Current Balance
+
+🖥️ Terminal Interface
+
+The application provides a menu-driven command-line interface where users select operations using terminal input.
+
+🏗️ Architecture
+
+Main Program → Banking Menu → User Input → Banking Operations → Account Data → Updated Balance → Terminal Output
+
+Core Components
+
+* Kotlin — Primary programming language
+* Main Program — Application entry point
+* Banking Menu — Handles available operations
+* Account Model — Represents account information
+* Transaction Logic — Processes deposits and withdrawals
+* Input Handling — Reads and validates user input
+
+🛠️ Tech Stack
+
+Kotlin • Kotlin/JVM • Object-Oriented Programming • Collections • Control Flow • Functions • Command-Line Interface
+
+📂 Project Structure
+
+BankingTerminal/ → src/ → main/kotlin/ → Main.kt • Account.kt • BankingService.kt • Transaction.kt • utils/ → build.gradle.kts → settings.gradle.kts → README.md
+
+⚙️ Getting Started
+
+1. Clone the Repository
+
+git clone <repository-url>
+cd BankingTerminal
+
+2. Build the Project
+
+./gradlew build
+
+3. Run the Application
+
+./gradlew run
+
+Or run the main() function directly from IntelliJ IDEA / Android Studio.
+
+🔄 Transaction Flow
+
+User Selects Operation → Enter Amount → Validate Input → Process Transaction → Update Balance → Display Result
+
+🔒 Validation & Error Handling
+
+The application can handle common banking scenarios such as:
+
+* Invalid account information
+* Invalid transaction amounts
+* Withdrawal exceeding available balance
+* Invalid menu selections
+* Incorrect user input
+* Zero or negative transaction amounts
+
+🌍 Real-World Use Case
+
+Banking Terminal App demonstrates the basic workflow behind a banking system and can be used as a learning project for understanding:
+
+* 🏦 Banking operations
+* 💰 Financial transactions
+* 👤 Account management
+* 🧮 Balance calculations
+* 🖥️ Menu-driven applications
+
+For example, a user can access an account, deposit money, withdraw funds, check the updated balance, and exit the application through the terminal.
+
+🎯 Project Goals
+
+* Build a practical Kotlin command-line application
+* Practice Kotlin fundamentals
+* Implement real-world banking operations
+* Understand object-oriented programming
+* Practice input validation and error handling
+* Implement transaction and balance management
+* Build a menu-driven terminal application
+
+💼 Portfolio Highlights
+
+Banking Terminal App demonstrates practical experience with:
+
+* Kotlin
+* Kotlin/JVM
+* Object-Oriented Programming
+* Functions & Classes
+* Control Flow
+* Collections
+* User Input Handling
+* Input Validation
+* Transaction Processing
+* Account Management
+* Command-Line Application Development
 
 # ScreenShots  
 
